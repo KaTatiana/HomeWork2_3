@@ -15,5 +15,4 @@ public class Truck extends Transport{
         checkEngine();
         checkTrailer();
     }
-
 }

@@ -15,11 +15,13 @@ public abstract class Transport {
         System.out.println("Меняем покрышку");
     }
 
-    public void check() {
+    public void updateWheels() {
 
         for (int i = 0; i < this.wheelsCount; i++) {
             this.updateTyre();
         }
     }
-
+    public void check(){
+        updateWheels();
+    }
 }
